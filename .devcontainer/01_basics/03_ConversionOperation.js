@@ -28,8 +28,42 @@ console.log(valueInNumber)
 let isLoggedIn = "0"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+//console.log(booleanIsLoggedIn)
 
 // 1=> true,  0 => false/ true
 // "" => false
 // "ashu" => true
+
+
+// ******************************************************Operation************************************************
+
+console.log(true)
+console.log("true")
+console.log(+true)
+console.log(-true)
+console.log("+true")
+console.log("")
+console.log(+"")
+console.log(-"")
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
+
+console.log("2">1)
+console.log(1> "2")
+
+console.log(null>0)
+console.log(null==0)  // in equality check null is a empty value
+console.log(null>=0)  // in comparison null is referred to as 0
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// ===
+
+console.log("2" === 2);
+console.log("2" == 2);
+
+
